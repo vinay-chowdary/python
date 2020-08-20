@@ -24,4 +24,4 @@ if operator in (1, 2, 3, 4, 5, 6):
     elif operator == 6:
         print(num1**num2)
 else:
-    print("valid input")
+    print("invalid input")
