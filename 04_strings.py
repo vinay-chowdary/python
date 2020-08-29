@@ -32,17 +32,6 @@ lst = line.rstrip().split(',')
 print(lst)
 
 
-######### formatting strings #########
-
-f1 = '%s, eggs, and %s' % ('spam', 'SPAM!')
-f2 = '{0}, eggs, and {1}'.format('spam', 'SPAM!')
-# numbers are optional from python 3.1+
-f3 = '{}, eggs, and {}'.format('spam', 'SPAM!')
-print(f1, f2, f3, sep=" == ")
-print('{:,.2f}'.format(296999.2567))
-print('%.2f | %+05d' % (3.14159, -42))
-
-
 # get ascii of a letter
 print(ord("@"))
 
