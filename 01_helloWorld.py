@@ -56,3 +56,5 @@ exec(open('toImportInHelloWorldScript.py').read())
 
 # getting help
 help(var.join)
+
+print(type(var), id(var))
