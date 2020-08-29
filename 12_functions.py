@@ -15,8 +15,10 @@ print(min("Hello hO"))
 # small among true and false
 print(min(True, False))
 
+# default arguments
 
-def computepay(h, r):
+
+def computepay(h=0, r=0):
     if h > 40:
         return ((h-40)*r*1.5)+40*r
     else:
@@ -28,5 +30,7 @@ try:
     rate = float(input("Enter Rate:"))
 except:
     print("error")
-p = computepay(hrs, rate)
+
+# named arguments
+p = computepay(r=rate, h=hrs)
 print("Pay", p)
