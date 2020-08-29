@@ -1,3 +1,8 @@
+# Arithmetic:    +,-,//,/,*,**,%
+# Assignment:    =,+=,-=,//=,/=,*=,**=,%=
+# Realational:   <,>,<=,>=,==,!=
+# Logical:       and , or , not
+# common escape sequences:  \n,\r,\t,\\,\',\"
 
 # special operators is , is not , in
 x = 10
@@ -15,6 +20,6 @@ if fruit is banana:
     print("yes")
 
 
-# thia may give syntax error dont use is operator to comapre literal and variable
+# this may give syntax error dont use is operator to comapre literal and variable
 if "banana" is fruit:
     print("yup")
