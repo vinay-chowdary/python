@@ -2,7 +2,7 @@
 s = "vinay"
 print(len(s))
 print(s[0], s[1], s[-1])
-print(s[0:3], s[2:], s[:3], s[:-1])
+print(s[0:3], s[2:], s[:3], s[:-1], s[::-1])
 print(s+"chowdary", s*2)
 
 
