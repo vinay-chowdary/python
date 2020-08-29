@@ -53,3 +53,6 @@ exec(open('toImportInHelloWorldScript.py').read())
 # include <Python.h>
 # Py_Initialize();
 # print("hello")
+
+# getting help
+help(var.join)
