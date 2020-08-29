@@ -1,13 +1,13 @@
 num1 = 12345.6789
-print("{: .2f}".format(num1))
-print("{: .4f}".format(num1))
+print("{:.2f}".format(num1))
+print("{:.4f}".format(num1))
 print("{:,.2f}".format(num1))
-print("{: 15,.2f}".format(num1))
+print("{:15,.2f}".format(num1))
 
 
 num2 = 12345
-print("{: d}".format(num2))
-print("{: ,d}".format(num2))
+print("{:d}".format(num2))
+print("{:,d}".format(num2))
 
 
 num3 = 0.12345
