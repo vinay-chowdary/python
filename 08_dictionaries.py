@@ -3,6 +3,8 @@
 bag = {"one": 1, "two": 2, "three": 3}
 print(bag["one"])
 
+# for key, value in bag:
+#     print(key, value)  this code will not work
 
 # starting with an empty dictionary , dict() is a constructor
 bag1 = dict()
@@ -66,3 +68,40 @@ while True:
         break
     tracker[name] = tracker.get(name, 0)+1
 print(tracker)
+
+
+bob2 = dict(zip(['name', "tel", 'age', 'job'], [
+            'Bob', ['dev', "mgr"], 40, "9999999"]))
+print(bob2)
+
+for key in sorted(bob2):
+    print(key, '=>', bob2[key])
+
+orders = {
+    'cappuccino': 54,
+    'latte': 56,
+    'espresso': 72,
+    'americano': 48,
+    'cortado': 41
+}
+print(sorted((v, k) for k, v in orders.items()))
+
+
+print("\n", "-"*50, "functions", "-"*50, "\n")
+print(orders.get("abc", 0))
+print(orders)
+orders.pop("latte", 0)
+print(orders)
+orders.popitem()
+print(orders)
+print(orders.keys(), orders.values(), orders.items())
+bob2.clear()
+print(bob2)
+# copy()
+keys = ["a", "b", "c"]
+print(dict.fromkeys(keys, 0))
+print(orders)
+orders.setdefault("ice cream", 1)
+print(orders)
+orders.update(bag)
+print(orders)
