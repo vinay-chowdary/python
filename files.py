@@ -1,9 +1,9 @@
 # 1.open a file using open(filename,mode) , mode is r(read) or w(write) , default is read
 # open returns a handler (may be a object) by use that handler to work with file
-fhand = open("helloWorld.py")
+fhand = open("01_helloWorld.py")
 print(fhand)
 
-
+help(fhand.seek)
 # reading files
 # for loop is smart enough to read a line from file handler
 # line has a \n at last and print() also adds \n so we get empty lines between lines.
@@ -15,7 +15,7 @@ for line in fhand:
 fhand.close()
 # reading whole file using read()
 print(".................................")
-fhand = open("helloWorld.py")
+fhand = open("01_helloWorld.py")
 inp = fhand.read()
 print(inp)
 fhand.close()
