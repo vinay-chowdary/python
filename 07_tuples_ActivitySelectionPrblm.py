@@ -18,7 +18,8 @@ print("sorted on end time ", lst)
 prevJobEnd = lst[0][1]
 jobsCanBeDone = 1
 for job in lst[1:]:
-    if(job[0] <= prevJobEnd):
+    if(job[0] >= prevJobEnd):
+        print(job)
         jobsCanBeDone += 1
         prevJobEnd = job[1]
 
