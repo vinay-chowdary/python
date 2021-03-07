@@ -59,10 +59,10 @@ print(type(numbers))
 print(numbers)
 
 MyNumbers = [45, 56, 90, 23, 11, 8]
-with open('mylist.txt', 'w') as fp:
+with open('mylist.txt', 'a') as fp:
     fp.write(str(MyNumbers)+'\n')
 fp = open('mylist.txt')
-numbers = eval(fp.read())
+numbers = eval(fp.readline())
 print(type(numbers))
 print(numbers)
 # for line in open("sample.txt"):
