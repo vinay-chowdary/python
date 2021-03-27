@@ -8,3 +8,12 @@
 # Other core types  : Booleans, types, None
 # Program unit types Functions, modules, classes (Part IV, Part V, Part VI)
 # Implementation-related types Compiled code, stack tracebacks (Part IV, Part VII)
+
+x = 10
+print(x)
+print(type(x))
+
+
+x = "I'm string"
+print(x)
+print(type(x))
