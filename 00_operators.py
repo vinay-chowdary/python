@@ -4,7 +4,9 @@
 # Logical:       and , or , not
 # common escape sequences:  \n,\r,\t,\\,\',\"
 
-# special operators is , is not , in
+# special operators is , is not , in, not in
+# Bitwise:      &, |, ~, ^, <<, >>
+
 x = 10
 fruit = "banana"
 banana = "banana"
